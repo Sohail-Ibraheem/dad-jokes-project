@@ -1,0 +1,34 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+div.container{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+div.joke_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-transform: uppercase;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+div.joke_container button{
+    padding: 8px 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #ffffff1a;
+    color: white;
+}
+p{
+    text-transform: capitalize;
+    word-break: keep-all;
+    text-align: center;
+}
